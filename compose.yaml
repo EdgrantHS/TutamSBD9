@@ -1,0 +1,9 @@
+services:
+  web:
+    build: ./tutam9-FE
+    ports:
+      - "3000:3000"
+  api:
+    build: ./tutam9-BE
+    ports:
+      - "4000:4000"
